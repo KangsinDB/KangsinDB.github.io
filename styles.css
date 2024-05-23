@@ -25,10 +25,11 @@ header p {
 }
 
 nav {
-    background: #444;
+    background: #4CAF50;
     color: #fff;
     padding: 15px 0;
     text-align: center;
+    margin-top: 20px;
 }
 
 nav ul {
@@ -69,7 +70,31 @@ section h2 {
 }
 
 section h3 {
-    color: #333;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+section h3 a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+section h3 a:hover {
+    text-decoration: underline;
+}
+
+.theory {
+    background: #FF5722;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.practice {
+    background: #03A9F4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 footer {

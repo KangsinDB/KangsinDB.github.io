@@ -3,52 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kang's Bioinformatics Site</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 10px 0;
-        }
-        a {
-            color: green;
-        }
-    </style>
+    <title>Prof. Kang's Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Kang's Site</h1>
-    <p>Ph.D. Kang, Junho</p>
-    <h2>R</h2>
-    <ul>
-        <li><a href="https://kangsindb.github.io/R_Programming/">R_Programming</a></li>
-        <li><a href="#">R-Tutorial</a></li>
-    </ul>
-    <h2>R Studio</h2>
-    <ul>
-        <li><a href="#">R Studio 활용</a></li>
-        <li><a href="#">R Markdown Demo</a></li>
-        <li><a href="#">Bookdown 저작 도구 (working in process)</a></li>
-    </ul>
-    <h2>Tidyverse</h2>
-    <ul>
-        <li><a href="#">R for Data Management</a></li>
-    </ul>
-    <h2>Data Analysis</h2>
-    <ul>
-        <li><a href="#">Statistics</a></li>
-        <li><a href="#">R for Big Data Analysis</a></li>
-    </ul>
+    <nav id="table-of-contents">
+        <h2>목차</h2>
+        <ul>
+            <li><a href="#r">R</a></li>
+            <li><a href="#linux">Linux</a></li>
+            <li><a href="#bioinformatics">Bioinformatics</a></li>
+            <li><a href="#visualization">Visualization</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <h1>Welcome to Kang's Site</h1>
+        <p>Ph.D. Kang, Junho</p>
+        
+        <section id="r">
+            <h2>R</h2>
+            <h3><a href="https://kangsindb.github.io/R_Programming/">이론</a></h3>
+            <h3>실습</h3>
+            <p>R을 사용한 데이터 분석 실습 예제 및 코드.</p>
+        </section>
+
+        <section id="linux">
+            <h2>Linux</h2>
+            <h3>이론</h3>
+            <p>리눅스 운영 체제의 이론적인 설명.</p>
+            <h3>실습</h3>
+            <p>리눅스 명령어 실습 예제 및 코드.</p>
+        </section>
+
+        <section id="bioinformatics">
+            <h2>Bioinformatics</h2>
+            <h3>이론</h3>
+            <p>생물정보학의 이론적인 설명.</p>
+            <h3>실습</h3>
+            <p>Bioinformatics 분석 실습 예제 및 코드.</p>
+        </section>
+
+        <section id="visualization">
+            <h2>Visualization</h2>
+            <h3>이론</h3>
+            <p>데이터 시각화의 이론적인 설명.</p>
+            <h3>실습</h3>
+            <p>데이터 시각화 실습 예제 및 코드.</p>
+        </section>
+    </main>
 </body>
 </html>

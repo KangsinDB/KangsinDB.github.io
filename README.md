@@ -1,4 +1,4 @@
-# Welcon to Kangsin`s database Site
+# Welcome to Kangsin`s database Site
 
 Junho Kang
 
